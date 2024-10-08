@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [amazonSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="amazonTest(failed)">
+    <classes>
+      <class name="Intro.User2">
+        <methods>
+          <include name="testUser2" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Intro.User2 -->
+      <class name="Intro.User3">
+        <methods>
+          <include name="testUser3" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Intro.User3 -->
+      <class name="Intro.User1">
+        <methods>
+          <include name="testUser1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Intro.User1 -->
+    </classes>
+  </test> <!-- amazonTest(failed) -->
+</suite> <!-- Failed suite [amazonSuite] -->

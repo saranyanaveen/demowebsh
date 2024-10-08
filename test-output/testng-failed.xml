@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [HRMSCrossBrowserTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="HRMSChromeTests(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="uploadfile.OodoApplicationForm">
+        <methods>
+          <include name="uploadfiletest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- uploadfile.OodoApplicationForm -->
+      <class name="uploadfile.RecruitmentModuleTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyApplicationInRecruitmentModule"/>
+          <include name="adminLogin"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- uploadfile.RecruitmentModuleTest -->
+    </classes>
+  </test> <!-- HRMSChromeTests(failed) -->
+</suite> <!-- Failed suite [HRMSCrossBrowserTestSuite] -->

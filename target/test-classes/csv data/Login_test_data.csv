@@ -1,0 +1,5 @@
+usename,password,expectedResult
+saranaveen1997@gmail.com,Saranya@1997,success
+abc@gmail.com,abc@123,Failure
+saranaveen1997@gmail.com,abc@123,Failure
+abc@gmail.com,Saranya@1997,Failure

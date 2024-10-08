@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DemoWebShopSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="AddToCart Tests(failed)">
+    <classes>
+      <class name="Intro.AddCart">
+        <methods>
+          <include name="addToCart" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- Intro.AddCart -->
+    </classes>
+  </test> <!-- AddToCart Tests(failed) -->
+  <test thread-count="5" name="Wishlist Tests(failed)">
+    <classes>
+      <class name="Intro.Wishlist">
+        <methods>
+          <include name="addToWishlist" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- Intro.Wishlist -->
+    </classes>
+  </test> <!-- Wishlist Tests(failed) -->
+</suite> <!-- Failed suite [DemoWebShopSuite] -->
